@@ -9,7 +9,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Clone the Git repository
-                git 'https://github.com/your-username/data-cleaning-project.git'
+                git 'https://github.com/MeghanaKajulkar/data-declarative-pipeline.git'
             }
         }
 
